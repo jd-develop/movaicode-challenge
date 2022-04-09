@@ -1,2 +1,2 @@
-# movaicode challenge 2022
- Movai Code 2022
+# movaicode challenge
+ Movai Code
