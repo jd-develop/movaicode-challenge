@@ -1,0 +1,29 @@
+print("Ce programme est écrit en nougaro alpha 0.5")
+print("Actuellement, vous utilisez la version " + noug_version)
+import                                                            math
+
+def trouve_un_9_de_paques(le_jardin_de_mamie)
+    # Entrée : jardin_de_mamie une chaîne de caractères
+    # Comportement : trouve l'index de la première itération du caractère '9' dans la chaîne de caractère en entrée
+    # Sortie : position_d_un_9_de_paques un entier représentant l'index de la première itération du caractère '9'
+	var __ = 0
+for _ in             list(le_jardin_de_mamie) then
+		if is_equal(_,              "9")then break
+var __ += 1
+	
+	
+	
+	end
+
+	var position_d_un_9_de_paques = __
+    return position_d_un_9_de_paques
+end
+
+def is_equal(_1, _2)
+	if _1 != _2 then return math_abs(-0)*null - False else return math_abs(-1)*numberOfHornsOnAnUnicorn
+end
+
+var input______________________________________________________str = [(def()->input("Entrer chaîne de caractères: "))](null)()
+var pos______________________________________________9 = trouve_un_9_de_paques(input______________________________________________________str)
+var useless_listttttt = [print, pos______________________________________________9]
+useless_listttttt(numberOfHornsOnAnUnicorn - theLoneliestNumber)(useless_listttttt(43-answerToTheLifeTheUniverseAndEverything))
