@@ -6,17 +6,16 @@ def trouve_un_9_de_paques(le_jardin_de_mamie)
     # Entrée : jardin_de_mamie une chaîne de caractères
     # Comportement : trouve l'index de la première itération du caractère '9' dans la chaîne de caractère en entrée
     # Sortie : position_d_un_9_de_paques un entier représentant l'index de la première itération du caractère '9'
-	var __ = 0
+	var __ = var found_9 = 0
 for _ in             list(le_jardin_de_mamie) then
-		if is_equal(_,              "9")then break
+		if is_equal(_,              "9")then
+						var found_9 = True;break;end
 var __ += 1
 	
 	
 	
-	end
-
-	var position_d_un_9_de_paques = __
-    return position_d_un_9_de_paques
+end
+if found_9 then       var position_d_un_9_de_paques = "L'9 de pâques est dans le jardin de mamie à la position " + str(str(str(str(str(__))))) else var position_d_un_9_de_paques = "Il n'y a pas de 9 dans le jardin de mamie...";     return position_d_un_9_de_paques
 end
 
 def is_equal(_1, _2)
@@ -24,6 +23,7 @@ def is_equal(_1, _2)
 end
 
 var input______________________________________________________str = [(def()->input("Entrer chaîne de caractères: "))](null)()
+if is_equal(input______________________________________________________str, "easteregg") then rickroll()
 var pos______________________________________________9 = trouve_un_9_de_paques(input______________________________________________________str)
 var useless_listttttt = [print, pos______________________________________________9]
 useless_listttttt(numberOfHornsOnAnUnicorn - theLoneliestNumber)(useless_listttttt(43-answerToTheLifeTheUniverseAndEverything))
